@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav .border {
+    height: 100px;
+    width: 100%;
+    background: #d4d2d2;
+}
+.nav .border h1 {
+    text-align: center;
+    padding: 20px;
+    color:rebeccapurple;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container {
+   width: 1320px;
+   margin: 0 auto; 
+   background: #f3f0f0;
+}
+.container .main {
+    margin: 0 auto;
+    width: 550px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* =============First Row start=========
+===================================== */
+
+
+.container .first_row {
+    width:550px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transform: .4s;
+}
+
+.container .first_row .one {
+    width: 100%;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    transition: .4s;
+}
+
+.container .first_row .two {
+    width: 100%;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    transition: .4s;
+}
+.container .first_row .three {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    transition: .4s;
+}
+
+.container .first_row .one:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 99;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .first_row .two:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .first_row .three:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+
+/* =============First Row end=========
+===================================== */
+
+/* =============Second Row start=========
+===================================== */
+
+.container .second_row {
+    width:550px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.container .second_row .one {
+    width: 100%;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    box-sizing: border-box;
+    transition: .4s;
+}
+.container .second_row .two {
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    transition: .4s;
+}
+.container .second_row .three {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+.container .second_row .one:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .second_row .two:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .second_row .three:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+
+/* =============Second Row end=========
+===================================== */
+
+/* =============Third Row start=========
+===================================== */
+
+
+.container .third_row {
+    width:550px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.container .third_row .one {
+    width: 100%;
+    border-right: 2px solid gray;
+    box-sizing: border-box;
+    transition: .4s;
+}
+.container .third_row .two {
+    width: 100%;
+    border-right: 2px solid gray;
+    box-sizing: border-box;
+    transition: .4s;
+}
+.container .third_row .three {
+    width: 100%;
+    transition: .4s;
+}
+
+
+.container .third_row .one:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .third_row .two:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+.container .third_row .three:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transform: scale(1.01);
+    border: none;
+}
+
+/* =============Third Row end=========
+===================================== */
+
+.container .main h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
